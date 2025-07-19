@@ -1,0 +1,29 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.feedbackBtn {
+  padding: 10px 24px;
+  border: 1px solid #ccc;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  letter-spacing: 1px;
+}
+
+.feedbackBtn:hover {
+  background-color: #e0e0e0;
+}
